@@ -4,16 +4,26 @@
 <br/>
 Adı girilen Tren hattında talep edilen miktarda yer olup olmadığını belirten API uygulaması.
 <br/>
+
 #### Kurallar Ve Kullanım
-<br/>
-Kapasite %70' e gelmiş ise rezervasyon yapılamaz.
-<br/>
-İstek yapılırken "çoklu vagondan rezervasyon yapılabilir"  seçeneği için true veya false seçilmeli.
-<br/>
-Eğer çoklu vagon istenmiyorsa uygulama tüm yolcuları tek bir vagona yerleştimeye çalışır, başarısız olursa boş bir array döner ve rezervasyon yapılamaz der.
+
 <br/>
 
+Kapasite %70' e gelmiş ise rezervasyon yapılamaz.
+
+<br/>
+
+İstek yapılırken "çoklu vagondan rezervasyon yapılabilir"  seçeneği için true veya false seçilmeli.
+
+<br/>
+
+Eğer çoklu vagon istenmiyorsa uygulama tüm yolcuları tek bir vagona yerleştimeye çalışır, başarısız olursa boş bir array döner ve rezervasyon yapılamaz der.
+
+<br/>
+
+
 #### Görsel 1 : Kulanılan Train Tablosu
+
 <br/>
 
 <img src="https://github.com/Trkrkrl/RailRoadReservationAPI/blob/master/Images/TrainsTable.png">
