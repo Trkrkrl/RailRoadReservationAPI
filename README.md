@@ -12,12 +12,37 @@ Adı girilen Tren hattında talep edilen miktarda yer olup olmadığını belirt
 Kapasite %70' e gelmiş ise rezervasyon yapılamaz.
 
 <br/>
+
+
 .Net 6 web api uygulaması.
+<br/>
+
+
 - Layered Architecture Design Pattern
+
+<br/>
+
+
 - Repository Design Pattern
+
+<br/>
+
+
 - Restful API
+
+<br/>
+
+
 - Result Types
+
+<br/>
+
+
 - Autofac 
+
+<br/>
+
+
 
 - Proje için Database oluşturulması gereklidir. Bu projede PostgreSQl tercih edilmiştir.
 - Kendi Database erişim bilgilerinizi appsetting.json dosyasındaki ilgili yere giriniz.
