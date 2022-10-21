@@ -22,24 +22,7 @@ namespace RailwayReservation.Business.Concrete
 
         public IDataResult<ReservationDetailsDTO> RequestReservation(ReservationRequestDTO reservationRequest)
         {
-            /*
-             * buraya reservation request ile istenilen tren adı, kişi sayısı ve farklı vagon acceptable durumu verilecek
-             * bu bilgiye göre train servisine get vb istek atacağız,
-             * 
-             * train servisinden bize vagondaki boş sayileri donecek
-             * boş sayilar toplami istekten kucuk ise reservasyon uygun değil doneceğiz
-             * eğer
-             * rezervasyoon sayisi mumkun ise yerlestireceğiz
-             * for vs ile
-             * vagondaki sayiyi db de artiracağiz
-             * 
-             * vagonların boşluk durumunu kontrol edeceğiz,
-             * istenilen yolcuları yerleştirene kadar son vagona kadar gideceğiz
-             * hepsi yerleşirse buradan  başarılı cevabı verip hangi vagona kaç kişi yerleştirildi onun bilgisini döneceğiz
-             * 
-             * 
-
-             */
+             
             var trainInfo = _trainService.GetTrainsByName(reservationRequest.TrainName).Data;
 
             if (trainInfo == null)
